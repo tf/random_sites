@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #eed;
+  background: #000 url("../img/bg1.jpg") top center no-repeat fixed;
+}
+
+section {
+  font-family: 'Bowlby One SC',"Arial Black", Gadget, sans-serif;
+  display: block;
+  height: 1000px;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#hint {
+  background: black url("../img/arrow.png") top right no-repeat;
+  width: 130px;
+  height: 130px;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 50px 100px 0 0;
+  -webkit-animation: bounce 2s ease infinite;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+#title {
+  display: block;
+  font-size: 80px;
+  text-shadow: 2px 2px 3px #def;
+}
+
+h1 {
+  padding-top: 250px;
+  font-size: 100px;
+  text-shadow: 2px 2px 5px #fff;
+}
+
+p {
+  font-size: 40px;
+  padding-top: 100px;
+  text-shadow: 2px 2px 3px #eee;
+}
+
+em,
+.larger {
+  font-style: normal;
+  font-size: 60px;
+  display: inline-block;
+}
+
+#juka {
+  font-size: 80px;
+}
