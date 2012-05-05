@@ -1,4 +1,8 @@
 jQuery(function($) {
+  if (jQuery.browser.msie) {
+    alert("Benutze bitte Chrome oder Firefox, um das meiste von dieser Seite zu haben.");
+  }
+
   var scrollorama = $.scrollorama({
     blocks: 'section',
     enablePin: false
